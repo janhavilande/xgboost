@@ -9,8 +9,6 @@ import scipy.special
 
 dpath = 'demo/data/'
 rng = np.random.RandomState(1994)
-
-
 class TestSHAP(unittest.TestCase):
 
     def test_feature_importances(self):
